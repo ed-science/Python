@@ -7,10 +7,7 @@ print(name)
 
 # Creating the new Dictinoary from an empty dictionary
 
-name1 = {}
-name1[1] = "Mercedes"
-name1[2] = "Benz"
-
+name1 = {1: "Mercedes", 2: "Benz"}
 print(name1)
 
 # Calculating the length of the dictionary name1 can be done by

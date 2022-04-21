@@ -28,7 +28,7 @@ print(list4)
 list5 = [1, 3, 5, 7]
 
 def fun2(l2):
-    for item3 in range(0, 4):
+    for item3 in range(4):
         print(l2[item3])
 
 fun2(list5)
@@ -38,7 +38,7 @@ fun2(list5)
 list6 = [1, 2, 3, 4, 5]
 
 def modify(list):
-    for item4 in range(0, 5):
+    for item4 in range(5):
         list[item4] = list[item4] + 5
         print(list[item4])
 
@@ -58,11 +58,10 @@ multiple(list7, list8 )
 
 listoflist = [[1, 2, 3], [4, 5, 6]]
 
-def makeOneList (a):
+def makeOneList(a):
     bothLists = []
     for item in a:
-        for element in item:
-            bothLists.append(element)
+        bothLists.extend(iter(item))
     print(bothLists)
 
 makeOneList(listoflist)

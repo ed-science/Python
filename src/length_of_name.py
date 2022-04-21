@@ -2,7 +2,7 @@ name = input("Enter your name: ")
 
 length = len(name)
 
-print("The length of your name is: %s" %(length))
+print(f"The length of your name is: {length}")
 
 if length < 4:
     print("The name is less than 4 characters")

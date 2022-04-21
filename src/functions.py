@@ -1,7 +1,6 @@
 
 def add(c,d):
-    e = c + d
-    return e
+    return c + d
 
 
 a = int(input("Enter the value of a:"))

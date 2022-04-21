@@ -8,8 +8,7 @@ def byIndex():
     print(Index)
 
 def appending():
-    adder = [1, 2, 3, 4]
-    adder.append(5)
+    adder = [1, 2, 3, 4, 5]
     print(adder)
 
 def slicing():
